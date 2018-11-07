@@ -1,0 +1,10 @@
+git config --global user.name "1107"
+$ cd	
+$ pwd	
+$ mkdir conversions 						# Create a new directory, 'conversions'
+$ cd conversions
+function celsius = fahrenheit_to_celsius(fahrenheit)
+    %FAHRENHEIT_TO_CELSIUS   Convert Fahrenheit to Celsius
+
+    celsius = (fahrenheit-32) * (5/9);
+end
